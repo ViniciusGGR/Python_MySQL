@@ -1,2 +1,7 @@
-# Python_MySQL
-Projeto do W3Schools - Python com MySQL
+# Python MySQL
+
+Projeto do W3Schools - Python com MySQL.
+
+---
+
+
