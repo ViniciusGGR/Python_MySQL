@@ -6,3 +6,11 @@ mydb = mysql.connector.connect(
     password="123456789",
     database="mydatabase"
 )
+
+mycursor = mydb.cursor()
+
+# Verificando as Tabelas do banco de dados
+mycursor.execute("SHOW TABLES")
+
+for x in mycursor:
+    print(x)
