@@ -6,4 +6,13 @@ mydb = mysql.connector.connect(
     password="123456789"
 )
 
-print(mydb)
+mycursor = mydb.cursor()
+
+# Criando um banco de dados
+# mycursor.execute("CREATE DATABASE mydatabase")
+
+# Verificando os bancos de dados
+mycursor.execute("SHOW DATABASES")
+
+for x in mycursor:
+    print(x)
